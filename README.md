@@ -6,11 +6,11 @@
 
 <table>
 <tr> 
-<td>Package</td><td>APPNAME</td>
+<td>Package</td><td>tale</td>
 </tr>
 <tr>
 <td>Description</td>
-<td>DESCRIPTIONHERE</td>
+<td>Parse user stories into shaman contract</td>
 </tr>
 <tr>
 <td>Node Version</td>
