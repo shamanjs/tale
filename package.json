@@ -1,0 +1,31 @@
+{
+  "name": "APPNAME",
+  "description": "DESCRIPTIONHERE",
+  "version": "0.0.1",
+  "homepage": "http://github.com/wearefractal/APPNAME",
+  "repository": "git://github.com/wearefractal/APPNAME.git",
+  "author": "Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
+  "main": "./index.js",
+  "dependencies": {
+    "coffee-script": "*",
+    "cirru-parser": "~0.5.6",
+    "natural": "~0.1.25",
+    "lodash": "~2.4.1"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script/register --reporter spec"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/wearefractal/APPNAME/raw/master/LICENSE"
+    }
+  ]
+}
